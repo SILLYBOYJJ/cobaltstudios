@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/contact.css">
+  <title>Contact</title>
+</head>
+<body>
+  <div class="header">
+    <nav>
+      <div class="logo">
+        <h1>COBALTSTUDIOS</h1>
+      </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+     <section class="contact-section">
+        <h1>Contact Us</h1>
+        <p>Have questions or feedback? Send us a message below.</p>
+        <form id="contactForm">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div id="responseMessage"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 GameName. All rights reserved.</p>
+    </footer>
+
+    <script src="../java script/contact.js"></script>
+</body>
+</html>
