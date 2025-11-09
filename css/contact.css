@@ -192,3 +192,65 @@ footer {
   color: rgba(255,255,255,0.6);
   font-size: 14px;
 }
+
+/* ===== Responsive / Mobile Optimization ===== */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  nav {
+    width: 95%;
+  }
+  .nav-links {
+    gap: 20px;
+  }
+  .card {
+    width: 45%;
+  }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 0;
+  }
+  .logo h1 {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    display: none;
+  }
+  .menu-toggle {
+    display: block;
+    color: #0ff;
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  .section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    width: 80%;
+  }
+}
+
+/* Small Screens */
+@media (max-width: 480px) {
+  .logo h1 {
+    font-size: 1.3rem;
+  }
+  .card {
+    width: 90%;
+    padding: 15px;
+  }
+  .card h3 {
+    font-size: 1.1rem;
+  }
+  .card p {
+    font-size: 0.9rem;
+  }
+  .card button {
+    padding: 6px 16px;
+  }
+}
+
